@@ -150,4 +150,17 @@
 	@media (max-width 768px)
 		#section5
 			padding 0px !important
+			.slider
+				.prev, .next
+					margin 0px
+					width 50px
+					margin-top 100px
+					i
+						font-size 50px
+				.list-item
+					width calc(100% - 100px)
+					.item
+						display none
+					.item.active
+						display block
 </style>

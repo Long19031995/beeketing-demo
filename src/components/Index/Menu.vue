@@ -107,6 +107,9 @@
 					border-radius 3px
 					padding 5px
 					color white
+				&:hover
+					a
+						color white
 		.options-tiny
 			display none
 			position relative
